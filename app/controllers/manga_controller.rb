@@ -1,2 +1,0 @@
-class MangaController < ApplicationController
-end
