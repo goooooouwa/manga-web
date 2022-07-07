@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  series: one
+  volume_number: 1
+  cover_image_url: MyString
+  download_url: MyString
+
+two:
+  title: MyString
+  series: two
+  volume_number: 1
+  cover_image_url: MyString
+  download_url: MyString

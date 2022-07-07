@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Manga</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Series</th>
+      <th>Volume number</th>
+      <th>Cover image url</th>
+      <th>Download url</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @manga.each do |manga| %>
+      <tr>
+        <td><%= manga.title %></td>
+        <td><%= manga.series %></td>
+        <td><%= manga.volume_number %></td>
+        <td><%= manga.cover_image_url %></td>
+        <td><%= manga.download_url %></td>
+        <td><%= link_to 'Show', manga %></td>
+        <td><%= link_to 'Edit', edit_manga_path(manga) %></td>
+        <td><%= link_to 'Destroy', manga, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Manga', new_manga_path %>

@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :manga
   resources :series
   resources :categories
   resources :authors
