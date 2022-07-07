@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  category: one
+  author: one
+  download_status: false
+  series_status: false
+  total_volume: 1
+  cover_image_url: MyString
+
+two:
+  title: MyString
+  category: two
+  author: two
+  download_status: false
+  series_status: false
+  total_volume: 1
+  cover_image_url: MyString

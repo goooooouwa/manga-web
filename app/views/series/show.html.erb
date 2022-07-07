@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @series.title %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @series.category %>
+</p>
+
+<p>
+  <strong>Author:</strong>
+  <%= @series.author %>
+</p>
+
+<p>
+  <strong>Download status:</strong>
+  <%= @series.download_status %>
+</p>
+
+<p>
+  <strong>Series status:</strong>
+  <%= @series.series_status %>
+</p>
+
+<p>
+  <strong>Total volume:</strong>
+  <%= @series.total_volume %>
+</p>
+
+<p>
+  <strong>Cover image url:</strong>
+  <%= @series.cover_image_url %>
+</p>
+
+<%= link_to 'Edit', edit_series_path(@series) %> |
+<%= link_to 'Back', series_index_path %>
